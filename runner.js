@@ -5,6 +5,7 @@ const options = require('./options');
 const filenamify = require('filenamify');
 
 before((done) => {
+  console.log(`Testing site: "${options.appUrl}"...`)
   browser.setOptions(options);
   browser.setUp(done);
 });

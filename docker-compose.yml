@@ -7,3 +7,9 @@ services:
         http_proxy: ${http_proxy}
         https_proxy: ${https_proxy}
         no_proxy: ${no_proxy}
+    volumes:
+      - ./test:/app/test
+      - ./screenshots:/app/screenshots
+    environment:
+      APP_URL: http://localhost:3000
+      SCREENSHOT_PATH: /app/screenshots
