@@ -1,6 +1,6 @@
 # hello.puppeteer-testing
 
-Starter kit for automated browser testing of external sites using mocha and puppeteer.
+Starter kit for automated browser testing of external sites using [puppeteer](https://github.com/GoogleChrome/puppeteer) and [Mocha](https://mochajs.org/).
 
 ## Usage
 
