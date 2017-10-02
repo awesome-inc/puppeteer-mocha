@@ -1,5 +1,6 @@
 module.exports = {
-  appUrl: `https://my-cool-app.weird-extension`,
+  appUrl: process.env.APP_URL || 'http://localhost:3000',
+  screenshotPath: process.env.SCREENSHOTS_PATH || './screenshots',
   puppeteer: {
     // headless: false,
     args: [

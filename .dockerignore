@@ -1,3 +1,5 @@
-Dockerfile
 .gitignore
+.editorconfig
+Dockerfile
+Vagrantfile
 node_modules/
