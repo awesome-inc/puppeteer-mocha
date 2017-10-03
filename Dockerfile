@@ -5,7 +5,7 @@ COPY package.json /app
 COPY yarn.lock /app
 
 # install the dependencies
-RUN yarn install
+RUN yarn install --prod --ignore-optional
 
 # copy source code
 COPY . /app

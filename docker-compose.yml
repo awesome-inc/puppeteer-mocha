@@ -1,12 +1,7 @@
 version: '3'
 services:
   test:
-    build:
-      context: ./
-      args:
-        http_proxy: ${http_proxy}
-        https_proxy: ${https_proxy}
-        no_proxy: ${no_proxy}
+    image: awesomeinc/puppeteer-mocha:latest
     volumes:
       - ./test:/app/test
       - ./screenshots:/app/screenshots

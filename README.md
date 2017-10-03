@@ -1,4 +1,4 @@
-# hello.puppeteer-testing
+# puppeteer-mocha
 
 Starter kit for automated browser testing of external sites using [puppeteer](https://github.com/GoogleChrome/puppeteer) and [Mocha](https://mochajs.org/).
 
