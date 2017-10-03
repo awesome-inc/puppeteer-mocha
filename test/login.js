@@ -3,7 +3,8 @@ const { test } = require('~/browser');
 
 describe('Login', () => {
 
-  it('can login', test(async (browser, opts) => {
+  // skipped, for it is only an example test
+  it.skip('can login', test(async (browser, opts) => {
     const page = await browser.newPage();
     await page.goto(`${opts.appUrl}/login`);
     await page.click("[name=email]");
