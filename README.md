@@ -1,3 +1,5 @@
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/awesome-inc/puppeteer-mocha/master)
+
 # puppeteer-mocha
 
 [![dockeri.co](http://dockeri.co/image/awesomeinc/puppeteer-mocha)](https://hub.docker.com/r/awesomeinc/puppeteer-mocha/)
