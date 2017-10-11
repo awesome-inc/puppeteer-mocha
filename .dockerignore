@@ -1,5 +1,6 @@
 .gitignore
 .editorconfig
 Dockerfile
+docker-compose.yml
 Vagrantfile
 node_modules/
