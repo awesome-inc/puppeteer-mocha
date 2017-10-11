@@ -22,4 +22,18 @@ describe('Login', () => {
     expect(innerText).to.be.equal('Dashboard');
   }));
 
+  // Test
+  it.skip('timeout test', test(async (browser, opts) => {
+
+    var testPromise = new Promise(function (resolve, reject) {
+      setTimeout(function () {
+        resolve("Hello World!");
+      }, 2000); // fails, because exceeds timeout=1000ms
+    });
+
+    var result = await testPromise;
+
+    expect(result).to.equal("Hello World!");
+  }));
+
 });

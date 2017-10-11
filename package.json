@@ -4,7 +4,7 @@
   "description": "Starter kit for automated browser testing of external sites using mocha and puppeteer.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 10000 ./runner.js test/**/*.js"
+    "test": "mocha ./runner.js ./test/**/*.js"
   },
   "keywords": [
     "chrome",

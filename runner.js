@@ -1,8 +1,18 @@
 require('require-self-ref');
 const path = require('path');
 const browser = require('./browser');
-const options = require('./options');
+const options = loadOptions();
 const filenamify = require('filenamify');
+
+function loadOptions() {
+  try {
+    console.log(require.resolve("./test/options"));
+    console.log('Loading ."/test/otions.js"...');
+    return require('./test/options');
+  } catch(e) {
+    return require('./options');
+  }
+}
 
 before((done) => {
   console.log(`Testing site: "${options.appUrl}"...`)
