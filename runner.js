@@ -7,7 +7,7 @@ const filenamify = require('filenamify');
 function loadOptions() {
   try {
     console.log(require.resolve("./test/options"));
-    console.log('Loading ."/test/otions.js"...');
+    console.log('Loading ."/test/options.js"...');
     return require('./test/options');
   } catch(e) {
     return require('./options');

@@ -8,7 +8,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/awesome-inc/puppeteer-mocha.svg "GitHub issues")](https://github.com/awesome-inc/puppeteer-mocha)
 [![GitHub stars](https://img.shields.io/github/stars/awesome-inc/puppeteer-mocha "GitHub stars")](https://github.com/awesome-inc/puppeteer-mocha)
 
-Starter kit for automated browser testing of external sites using [puppeteer](https://github.com/GoogleChrome/puppeteer) and [Mocha](https://mochajs.org/).
+Starter kit for automated browser testing of external sites using [puppeteer](https://github.com/GoogleChrome/puppeteer) with [Mocha](https://mochajs.org/) and [Chai](http://chaijs.com/).
 
 ## Usage
 

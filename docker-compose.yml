@@ -1,7 +1,8 @@
 version: '3'
 services:
   test:
-    image: awesomeinc/puppeteer-mocha:latest
+    image: awesomeinc/puppeteer-mocha:0.13.0
+    build: ./
     volumes:
       - ./test:/app/test
       - ./screenshots:/app/screenshots

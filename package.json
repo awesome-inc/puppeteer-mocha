@@ -1,7 +1,7 @@
 {
   "name": "puppeteer-mocha",
-  "version": "0.1.0",
-  "description": "Starter kit for automated browser testing of external sites using mocha and puppeteer.",
+  "version": "0.13.0",
+  "description": "Starter kit for automated browser testing of external sites using puppeteer with mocha & chai.",
   "main": "index.js",
   "scripts": {
     "test": "mocha ./runner.js ./test/**/*.js"
@@ -10,16 +10,16 @@
     "chrome",
     "browser"
   ],
-  "author": "Marcel Körtgen",
+  "author": "Awesome Inc. and contributors",
   "license": "MIT",
   "dependencies": {
     "chai": "^4.1.2",
     "filenamify": "^2.0.0",
-    "mocha": "^3.5.3",
+    "mocha": "^4.0.1",
     "require-self-ref": "^2.0.1"
   },
   "devDependencies": {
-    "puppeteer": "^0.11.0"
+    "puppeteer": "^0.13.0"
   },
   "repository": "https://github.com/awesome-inc/puppeteer-mocha.git"
 }
